@@ -7,7 +7,6 @@
     <title>ShopLego</title>
 
     <style>
-
         html,
         body {
             margin: 0;
@@ -25,9 +24,7 @@
         }
 
         h1,
-        h2,
-        h3 {
-            font-family: 'Sonsie One', cursive;
+        h2 {
             color: #2a2a2a;
         }
 
@@ -41,15 +38,16 @@
         h1 {
             font-size: 4rem;
             text-align: center;
-            color: #802430;
-            text-shadow: 2px 2px 10px rgb(255, 30, 30);
+            color: #246680;
+            text-shadow: 2px 2px 10px rgb(30, 221, 255);
         }
 
         h2 {
             font-size: 3rem;
             text-align: center;
-            color: aliceblue;
-            text-shadow: 2px 2px 10px whitesmoke;
+            color: rgb(28, 140, 238);
+            text-shadow: 2px 2px 10px rgb(128, 222, 235);
+            background-color: #cae3e9;
         }
 
         h3 {
@@ -60,18 +58,19 @@
         li {
             font-size: 2.5rem;
             line-height: 1.5;
-            text-shadow: 2px 2px 2px #FF334E;
+            text-shadow: 2px 2px 2px #33f1ff;
         }
 
         nav,
-        article{
-            background-color: #000000;
+        article {
+            background-color: #a1a1a1;
         }
 
         aside,
         footer {
-            background-color: #7C7A7A;
+            background-color: #535252;
             padding: 1%;
+            margin-top: 10px;
         }
 
         nav {
@@ -138,15 +137,11 @@
         aside {
             flex: 1;
             margin-left: 10px;
-            background-color: #7C7A7A;
+            background-color: #a1a1a1;
         }
 
         aside li {
             padding-bottom: 10px;
-        }
-
-        footer {
-            margin-top: 10px;
         }
 
         .padre {
@@ -163,6 +158,14 @@
             font-size: 3em;
         }
 
+        .container {
+            background-color: #000000;
+            display: flex;
+        }
+
+        .producto {
+            background-color: #ffffff;
+        }
     </style>
 
 </head>
@@ -172,7 +175,7 @@
     <header>
         <div class="padre">
             <div class="hijo">
-                <img src="assets/Bloque_logo.png" alt="" width="100px" height="100px"> 
+                <img src="assets/Bloque_logo.png" alt="" width="100px" height="100px">
             </div>
             <div class="hijo">
                 <h1>Leg▣s</h1>
@@ -181,10 +184,24 @@
     </header>
 
     <main>
-        <article>
-            <h2>Legos</h2>
 
-        </article>
+        <div class="container">
+            <div class="producto">
+                <picture>
+                    <img src="assets/SpidermanCivilWar-PhotoRoom.png-PhotoRoom.png" alt="">
+                </picture>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="producto">
+                <picture>
+                    <img src="assets/CapitanAmericaCivilWar-PhotoRoom.png-PhotoRoom.png" alt="">
+                </picture>
+            </div>
+        </div>
+
+
 
         <aside>
             <h2>Relacionado</h2>
